@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "prpe",
+  "version": "${version}",
+  "name": "PRPE",
+  "description": "Library for polymer-resource-pack",
+  "authors": [
+    "GongjoongDoduk"
+  ],
+  "license": "Apache-2.0",
+  "icon": "assets/prpe/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "org.gjdd.prpe.PrpeMod"
+    ]
+  },
+  "mixins": [
+    "prpe.mixins.json"
+  ],
+  "depends": {
+    "minecraft": ">=${minecraftVersion}",
+    "fabricloader": ">=${fabricLoaderVersion}",
+    "polymer-resource-pack": ">=${polymerVersion}"
+  }
+}
